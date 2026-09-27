@@ -1,9 +1,8 @@
-angka1 = int(input("Masukkan angka"))
-angka2 = int(input("Masukkan angka"))
-angka3 = int(input("Masukkan angka"))
+from bagi import bagi
 
-# tambah
-hasil =  angka1 + angka2 + angka3
-print("Hasil dari", angka1, "+", angka2, "+", angka3)
-print(hasil)
-print(5*"=")
+print("Pembagian Angka")
+angka1 = int(input("Masukkan angka pertama: "))
+angka2 = int(input("Masukkan angka kedua: "))
+
+hasil = bagi(angka1, angka2)
+print("Hasil pembagian: ", hasil)
